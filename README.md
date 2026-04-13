@@ -23,3 +23,6 @@ This tutorial outlines the prerequisites and installation of an open-source help
 - Join the client vm to the domain
 
 <h2>Installation process</h2>
+<p>For installing osTickets, we gotta start by downloading the necessary files to our vm/computer.</p>
+<p>For this porpuse we could either go and search for them ourselves or use the zip files that the kind souls of the internet had create for us, the later is the easiest one so thats what im going to be using.</p>
+<a href="https://drive.usercontent.google.com/download?id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD&export=download&authuser=0">osTikcets installation files</a>
