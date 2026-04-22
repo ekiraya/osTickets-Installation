@@ -24,7 +24,7 @@ This tutorial outlines the prerequisites and installation of an open-source help
 
 <h2>Installation process</h2>
 
-<p>For installing osTickets, we gotta start by downloading the necessary files to our vm/computer.</p>
+<p>For installing osTickets, we gotta start by downloading the necessary files to our vm/computer, im personally using a vm so hencefoward i will be saying our vm.</p>
 <p>For this porpuse we could either go and search for them ourselves or download the zip files that the kind souls of the internet had create for us, the later is the simplest one so thats what im going to be using.</p>
 <a href="https://drive.usercontent.google.com/download?id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD&export=download&authuser=0">osTikcets installation files</a>
 <br>
@@ -41,3 +41,10 @@ This tutorial outlines the prerequisites and installation of an open-source help
 <img src="https://i.imgur.com/f5kHs53.png"  height="35%" width="35%"/>
 
 <p>Those are the files that we will be using to intall ostickets, it is really important that we execute them in the correct order.</p>
+
+<br>
+<p>To start installing ostickets first we have to install iis.</p>
+<p>Think about a webpage, for a webpage to run there needs to be a server somewhere that hosts it and allows the users to connect to it.</p>
+<p>With the help of iis, we can give our vm the capacity to act like a server. Which is something that is essential to ostickets functioning.</p>
+<p>To install iis we can either go to <code>turn windows features on or off</code> or to the add roles and features option on the server managmente window, which one you chose depends on your operating system</p>
+<p>Once there we have to find </p>
