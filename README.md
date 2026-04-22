@@ -52,4 +52,8 @@ This tutorial outlines the prerequisites and installation of an open-source help
 <img src="https://i.imgur.com/XdgT50E.png"  height="35%" width="35%"/>
 <p>Nevertheless, we have to make sure we also enable the cgi option within the aplication development toggle</p>
 <img src="https://i.imgur.com/D9731Ft.png"  height="35%" width="35%"/>
-
+<p>After the installation process for iis is done we can do little test to ensure everything is alright</p>
+<p>That test consist in going to the <code>127.0.0.1</code> address in your browser, when you do that something like this should show up</p>
+<img src="https://i.imgur.com/jErzqYk.png"  height="35%" width="35%"/>
+<p>the <code>127.0.0.1</code> is the loop back address, and its porpuse its to ping to the vm itself, thus to test whether the server within our vm has been created and its hosting a webpage the best way to go about it is to actually try to connect to that webpage using the aforementioned address through the browser</p>
+<p>webpages, of course, run with code normally some convination </p>
