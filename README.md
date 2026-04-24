@@ -62,3 +62,10 @@ This tutorial outlines the prerequisites and installation of an open-source help
 <p>Importantlly, we can not only observe this code. We can actually modify it to turn our self hosted webpage into a totally different webpage.</p> 
 <p>And that is exactly what we will be doing to install ostickets, to install ostickets we need to completly rework our defoult selfhosted webpage into a functioning selfhosted ticketing system/webpage.</p>
 <p>And in the following steps i will show how, and the reasoning for every step</p>
+
+<h3>PHP configurartion</h3>
+<p>php is a programing language primarly used in webpage development.</p>
+<p>This is the language that osticket uses; thus, we are required to install it and to configure our iis server to use it.</p>
+
+<p>To use php within our iis webpage we firstlly need to run <code>php manager for iis</code></p>
+<p><code>php manager for iis</code> is a managing tool that allows us </p>
