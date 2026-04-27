@@ -91,5 +91,10 @@ This tutorial outlines the prerequisites and installation of an open-source help
 <p>after that whole process we can finally register our new php version by clicking the aforementioned option and just clicking the register a new php version button and then just opening the <code>php-cgi.exe</code> from the php folder we previously created at <code>C:\php</code></p>
 <img src="https://i.imgur.com/Rj8P2C3.png"  height="25%" width="25%"/>
 
+<p>afterwards we need to run vc_redist</p>
+<p>a lot of the code for php extentions and some iis modules was originally writen on c, c++ to be able to actually use those files we need to install vc_redist</p>
 
-    
+<p>after all of that is done we need to restart our iis serve</p>
+<p>we do this to avoid certain problems that may araise if some file routes and modules are not actualised</p>
+
+<p>Now rember</p>
