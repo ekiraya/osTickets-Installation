@@ -97,4 +97,12 @@ This tutorial outlines the prerequisites and installation of an open-source help
 <p>after all of that is done we need to restart our iis serve</p>
 <p>we do this to avoid certain problems that may araise if some file routes and modules are not actualised</p>
 
-<p>Now rember</p>
+<h3>Deploying the webapp</h3>
+<p>Now we have everything requiered for the ostickets webapp to run, but how do we actually run it?</p>
+<p>Remember the <code>C:\inetpub\wwwroot</code> folder that i mentioned earlier</p>
+<p>Well if we simply switch those files with the files that define ostciket we can convert our defoult webpage into ostickets</p>
+
+<br>
+<p>to find the necesarry files we can go to the <code>osticket files zip</code> and extract its contents</p>
+<p>once the extraction is finished we can just replace the files on the <code>C:\inetpub\wwwroot</code> folder with the files of the upload folder and our default webpage is now ostickets</p>
+<img src="https://i.imgur.com/Rj8P2C3.png"  height="25%" width="25%"/>
