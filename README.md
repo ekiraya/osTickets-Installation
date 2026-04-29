@@ -91,11 +91,18 @@ This tutorial outlines the prerequisites and installation of an open-source help
 <p>after that whole process we can finally register our new php version by clicking the aforementioned option and just clicking the register a new php version button and then just opening the <code>php-cgi.exe</code> from the php folder we previously created at <code>C:\php</code></p>
 <img src="https://i.imgur.com/Rj8P2C3.png"  height="25%" width="25%"/>
 
-<p>afterwards we need to run vc_redist</p>
-<p>a lot of the code for php extentions and some iis modules was originally writen on c, c++ to be able to actually use those files we need to install vc_redist</p>
+<h3>Enable url rewrite</h3>
+<p>then we have to run <code>rewrite_amd64_en-US</code> to enable url rewrite</p>
+<img src="https://i.imgur.com/Z2F3sie.png"  height="25%" width="25%"/>
 
-<p>after all of that is done we need to restart our iis serve</p>
-<p>we do this to avoid certain problems that may araise if some file routes and modules are not actualised</p>
+<p>url re write allows the user or in this case osticket to configure rules to map any given url to any other url</p>
+<p>this is better explained with an example, with url rewrite we can for instance take the url <code>http://localhost/article/342/some-article-title</code> and configure rules within our iis server to turn it into <code>http://localhost/article.aspx?id=342&title=some-article-title</code></p>
+<p>we need to enable this on our osticket vm bcos os ticket constantlly converts any x url to y url</p>
+<p>for instance ostickets needs to switch from <code>http://127.0.0.1/setup/</code> to <code>http://127.0.0.1/setup/install.php</code></p>
+<p>and this is type of url switching is essential to its funtioning, manily due to the fact the php files mentioned before expect certain specific url and if those urls are not provided or are provided in a form that is not expected errors may arise</p>
+
+<h3>Vc redist</h3>
+actually explain vc redist
 
 <h3>Deploying the webapp</h3>
 <p>Now we have everything requiered for the ostickets webapp to run, but how do we actually run it?</p>
