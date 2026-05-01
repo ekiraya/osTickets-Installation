@@ -101,8 +101,15 @@ This tutorial outlines the prerequisites and installation of an open-source help
 <p>for instance ostickets needs to switch from <code>http://127.0.0.1/setup/</code> to <code>http://127.0.0.1/setup/install.php</code></p>
 <p>and this is type of url switching is essential to its funtioning, manily due to the fact the php files mentioned before expect certain specific url and if those urls are not provided or are provided in a form that is not expected errors may arise</p>
 
-<h3>Vc redist</h3>
-actually explain vc redist
+<h3>Microsoft Visual C++ Redistributable</h3>
+<p>when you creeate an aplication in the c progaming language family it is almost imposible that you dont rely on libraries</p>
+<p>libraries can be think of as reusable code, like functions or classes that other people created and that you are reusing in your own aplication, using libraries is really common but it has a downside apps that are build using any specific library will then need that library to run even after the code is compiled into a <code>.exe</code> file</p>
+<p>osticket is affected by that due to the fact that some components it needs for its correct working really on those libraries</p>
+<p>for instance we need to install said libraries to use:</p>
+<code>certain php extentions</code>
+<code>certain iis modules</code>
+<code>image processing functions within ostickets</code>
+<p>the specific libraries we need to install are the <code>Visual C++ Runtime libraries</code> and to install them we need to run <code>VC_redist.x86</code></p>
 
 <h3>Deploying the webapp</h3>
 <p>Now we have everything requiered for the ostickets webapp to run, but how do we actually run it?</p>
