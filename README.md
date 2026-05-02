@@ -27,10 +27,16 @@ This tutorial outlines the prerequisites and installation of an open-source help
 <h3>Downloading the necessay files</h3>
 <p>For installing osTickets, we gotta start by downloading the necessary files to our vm/computer, im personally using a vm so hencefoward i will be saying our vm. For this porpuse we could either go and search for them ourselves or download a zip, even though the option of donwloading the zip may appear faster and easier it has the drawback of potentially causing segurity issues due to the simple fact that we dont know if the files on the zip are the original ones or a modified version. Given our situation i think its best to go ahead and search for the files manually. Nevertheless to make the process easier i have compiled a little table with all the requirments and the original links to everyone of them</p>
 
+|Requierment   |Original download link   |
+|---|---|
+|osTikcets installation files  |https://drive.usercontent.google.com/download?id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD&export=download&authuser=0   |
+|1   |Generic error; server returned bad status code, CLI validation failed, etc.   |
+|2   |Parser error; check input to command line.   |
+|3   |Missing ARM resource; used for existence check from `show` commands.   |
 
+<p>After you donwload all the files you should have the following files</p>
+<img src="https://i.imgur.com/f5kHs53.png"  height="35%" width="35%"/>
 
-<a href="https://drive.usercontent.google.com/download?id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD&export=download&authuser=0">osTikcets installation files</a>
-<br>
 
 <br>
 <p>Once that zip file finishes downloading we have to extract the files within it; After the extraction process is done we should have the next files:</p>
@@ -41,7 +47,7 @@ This tutorial outlines the prerequisites and installation of an open-source help
 <p><code>the php manager for iis installer</code></p>
 <p><code>the rewrite amd installer</code></p>
 <p><code>vc redist compiler</code></p>
-<img src="https://i.imgur.com/f5kHs53.png"  height="35%" width="35%"/>
+
 
 <p>Those are the files that we will be using to intall ostickets, it is really important that we execute them in the correct order.</p>
 
