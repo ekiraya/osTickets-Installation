@@ -14,7 +14,7 @@ This tutorial outlines the prerequisites and installation of an open-source help
 
 <h2>List of Prerequisites</h2>
 
-- Have a vm or physical computer where you want to install ostickets
+- To have a vm or physical computer where you want to install ostickets
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
@@ -25,8 +25,10 @@ This tutorial outlines the prerequisites and installation of an open-source help
 <h2>Installation process</h2>
 
 <h3>Downloading the necessay files</h3>
-<p>For installing osTickets, we gotta start by downloading the necessary files to our vm/computer, im personally using a vm so hencefoward i will be saying our vm.</p>
-<p>For this porpuse we could either go and search for them ourselves or download the zip files that the kind souls of the internet had create for us, the later is the simplest one so thats what im going to be using.</p>
+<p>For installing osTickets, we gotta start by downloading the necessary files to our vm/computer, im personally using a vm so hencefoward i will be saying our vm. For this porpuse we could either go and search for them ourselves or download a zip, even though the option of donwloading the zip may appear faster and easier it has the drawback of potentially causing segurity issues due to the simple fact that we dont know if the files on the zip are the original ones or a modified version. Given our situation i think its best to go ahead and search for the files manually. Nevertheless to make the process easier i have compiled a little table with all the requirments and the original links to everyone of them</p>
+
+
+
 <a href="https://drive.usercontent.google.com/download?id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD&export=download&authuser=0">osTikcets installation files</a>
 <br>
 
